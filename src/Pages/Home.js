@@ -473,9 +473,7 @@ const Home = () => {
                       <br></br>
                       <h4>3. Upload berkas lomba di mana sih Minsa ?</h4>
                       <p>
-                        Link drive untuk upload berkas dan link untuk upload
-                        bukti pembayaran akan dicantumkan di invoice. Kalian
-                        akan mendapatkan invoice seperti ini.
+                      Link drive untuk upload berkas dan link untuk upload bukti pembayaran akan dicantumkan di invoice.
                       </p>
                       <br></br>
                       <h4>
