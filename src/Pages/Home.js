@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Home = () => {
   return (
@@ -16,8 +16,8 @@ const Home = () => {
                         <span
                           className="cd-words-wrapper"
                           style={{
-                            width: '266px',
-                            overflow: 'hidden',
+                            width: "266px",
+                            overflow: "hidden",
                           }}
                         >
                           <b className="is-hidden">IIF-Nasional</b>
@@ -33,17 +33,11 @@ const Home = () => {
                         <ul className="">
                           <li>
                             <button className="btn-primary">
-                              <a
-                                href="/"
-                                target="newtab"
-                              ></a>
+                              <a href="/" target="newtab"></a>
                               Coming Soon 2024
                             </button>
                             <button className="btn-primary">
-                              <a
-                                href="/"
-                                target="newtab"
-                              ></a>
+                              <a href="/" target="newtab"></a>
                               Buku Panduan
                             </button>
                           </li>
@@ -56,11 +50,7 @@ const Home = () => {
             </div>
           </div>
           <div className="parallax" data-velocity="-.1"></div>
-          <div
-            className="parallax"
-            data-velocity="-.5"
-            data-fit="525"
-          ></div>
+          <div className="parallax" data-velocity="-.5" data-fit="525"></div>
         </div>
 
         {/* <!-- ================================ ABOUT =============================== --> */}
@@ -76,27 +66,24 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Invention and Innovation Fair (IIF) adalah
-                        event Regional pertama yang diselenggarakan
-                        IYSA. Merupakan ajang adu kemampuan para
-                        peneliti muda dalam mempresentasikan hasil
-                        penelitian yang telah mereka lakukan. Melalui
-                        Invention and Innovation Fair 2023, para
-                        peneliti muda berkesempatan untuk memaparkan
-                        hasil karya mereka, memperkaya wawasan,
-                        meningkatkan kemampuan berkomunikasi dan
-                        berkesempatan untuk berkompetisi di tingkat
-                        regional.
+                        Invention and Innovation Fair (IIF) adalah event
+                        Regional pertama yang diselenggarakan IYSA. Merupakan
+                        ajang adu kemampuan para peneliti muda dalam
+                        mempresentasikan hasil penelitian yang telah mereka
+                        lakukan. Melalui Invention and Innovation Fair 2023,
+                        para peneliti muda berkesempatan untuk memaparkan hasil
+                        karya mereka, memperkaya wawasan, meningkatkan kemampuan
+                        berkomunikasi dan berkesempatan untuk berkompetisi di
+                        tingkat regional.
                       </p>
                       <p>
-                        Setelah kemarin sukses melaksanakan IIF
-                        regional pertama di Jawa Timur, IYSA akan
-                        mengadakan kembali IIF untuk tingkat Nasional.
-                        Dalam tingkat Nasional ini IYSA bekerja sama
-                        dengan Universitas Udayana Jimbaran, Bali yang
-                        akan diadakan pada tanggal 8 - 11 November
-                        2023. Kompetisi ini diselenggarakan secara
-                        Luring (Offline Competition).
+                        Setelah kemarin sukses melaksanakan IIF regional pertama
+                        di Jawa Timur, IYSA akan mengadakan kembali IIF untuk
+                        tingkat Nasional. Dalam tingkat Nasional ini IYSA
+                        bekerja sama dengan Universitas Udayana Jimbaran, Bali
+                        yang akan diadakan pada tanggal 8 - 11 November 2023.
+                        Kompetisi ini diselenggarakan secara Luring (Offline
+                        Competition).
                       </p>
                     </div>
                   </div>
@@ -172,22 +159,19 @@ const Home = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h4>
-                          Tugu Pahlawan, Surabaya, Photo by:IG @ayodab
-                        </h4>
+                        <h4>Tugu Pahlawan, Surabaya, Photo by:IG @ayodab</h4>
                         <h3>MEKANISME KOMPETISI</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
                         1. Setiap tim wajib membawa poster ukuran A0,
-                        mendekorasi stan yang disediakan panitia.
-                        (dekorasi tidak boleh berlebihan/di luar tema
-                        proyek)
+                        mendekorasi stan yang disediakan panitia. (dekorasi
+                        tidak boleh berlebihan/di luar tema proyek)
                       </p>
                       <p>
-                        2. Penjurian akan dilakukan secara luring di
-                        stan masing - masing peserta
+                        2. Penjurian akan dilakukan secara luring di stan masing
+                        - masing peserta
                       </p>
                     </div>
                   </div>
@@ -216,10 +200,7 @@ const Home = () => {
                 </div>
                 <div className="row love-row wow fadeIn">
                   <div className="col-md-3 col-sm-6">
-                    <div
-                      className="service-details"
-                      data-wow-delay=".1s"
-                    >
+                    <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
                           src="./assets/logo/Inovation.WebP"
@@ -234,15 +215,9 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <div
-                      className="service-details"
-                      data-wow-delay=".1s"
-                    >
+                    <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
-                        <img
-                          src="./assets/logo/life.WebP"
-                          alt="Life Science"
-                        />
+                        <img src="./assets/logo/life.WebP" alt="Life Science" />
                       </div>
                       <div className="service-bottom">
                         <h3>Life Science</h3>
@@ -252,10 +227,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <div
-                      className="service-details"
-                      data-wow-delay=".1s"
-                    >
+                    <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
                           src="./assets/logo/Envi.WebP"
@@ -270,10 +242,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
-                    <div
-                      className="service-details"
-                      data-wow-delay=".1s"
-                    >
+                    <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
                           src="./assets/logo/Social.WebP"
@@ -483,88 +452,74 @@ const Home = () => {
                       <h3>Setelah Mendaftar</h3>
                       <br></br>
                       <h4>
-                        1. Minsa, kapan kami akan mendapatkan LoA dan
-                        invoice kami ? Dikirimnya kemana sih?
+                        1. Minsa, kapan kami akan mendapatkan LoA kami?
+                        Dikirimnya kemana sih?
                       </h4>
                       <p>
-                        Panitia akan mengirimkan LoA dan Invoice
-                        selambatnya 1 hari kerja setelah kamu
-                        mendaftar. LoA dan Invoice akan kami kirimkan
-                        ke email ketua tim, jadi pastikan kamu
-                        mencantumkan alamat email yang aktif dan benar
-                        ya!.
+                        Setelah pendaftaran kamu kami terima, kami akan
+                        mengirimkan email konfirmasi selambatnya 1X24 jam, dan
+                        untuk LoA akan kami kirimkan ke alamat email ketua tim
+                        selambatnya 3X24 jam setelah pendaftaran.
                       </p>
                       <br></br>
                       <h4>
-                        2. Minsa, aku sudah daftar satu minggu yang
-                        lalu, tapi kok aku belum terima LoA dan
-                        Invoicenya ya ?
+                        2. Minsa, aku sudah daftar satu minggu yang lalu tapi
+                        kok aku belum terima LoA dan Invoice ya?
                       </h4>
                       <p>
-                        Coba deh cek folder spam di email ketua tim
-                        kamu, mungkin email dari tim IYSA masuk ke
-                        folder spam.
+                        Coba deh cek folder spam di email ketua tim kamu,
+                        mungkin email dari tim IYSA masuk ke folder spam.
+                      </p>
+                      <br></br>
+                      <h4>3. Upload berkas lomba di mana sih Minsa ?</h4>
+                      <p>
+                        Link drive untuk upload berkas dan link untuk upload
+                        bukti pembayaran akan dicantumkan di invoice. Kalian
+                        akan mendapatkan invoice seperti ini.
                       </p>
                       <br></br>
                       <h4>
-                        3. Upload berkas lomba di mana sih Minsa ?
+                        4. Aku mau bayar biaya registrasi nih tapi kok aku tidak
+                        bisa menemukan Invoicenya ya ? dan pembayarannya di
+                        transfer kemana sih ?
                       </h4>
                       <p>
-                        Upload berkas yang diminta oleh panitia ke
-                        link google drive yang sudah kami cantumkan di
-                        LoA kamu, pastikan kamu membaca LoA dengan
-                        teliti ya!.
+                        Hayo kamu sudah baca LoA sampai tuntas belum? Karena
+                        Invoice kami kirimkan bersama LoA tim kamu, pastikan
+                        kamu sudah membaca email dari kami hingga tuntas yaa!
+                        Untuk pembayaran, kamu bisa transfer ke rekening yang
+                        tertera di dalam invoice ya. Pastikan kamu membayar
+                        sesuai dengan nominal yang tertera di invoice, oke!.
                       </p>
                       <br></br>
                       <h4>
-                        4. Aku mau bayar biaya registrasi nih tapi kok
-                        aku tidak bisa menemukan Invoicenya ya ? dan
-                        pembayarannya di transfer kemana sih ?
+                        5. Minsa, aku sudah bayar registrasinya nih, upload
+                        bukti pembayarannya kemana ya ?
                       </h4>
                       <p>
-                        Hayo kamu sudah baca LoA sampai tuntas belum?
-                        Karena Invoice kami kirimkan bersama LoA tim
-                        kamu, pastikan kamu sudah membaca email dari
-                        kami hingga tuntas yaa! Untuk pembayaran, kamu
-                        bisa transfer ke rekening yang tertera di
-                        dalam invoice ya. Pastikan kamu membayar
-                        sesuai dengan nominal yang tertera di invoice,
-                        oke!.
+                        Jika sudah melakukan pembayaran, kamu bisa upload
+                        buktinya ke link yang tercantum di invoice, dan pastikan
+                        kamu mengisi dan mengupload bukti transfer dengan benar
+                        agar panitia dapat mendatanya dengan benar juga.
+                      </p>
+                      <br></br>
+                      <h4>6. Kalau kwitansinya kapan di kirimkan ke kami ?</h4>
+                      <p>
+                        Kuitansi pembayaran akan kami kirimkan maksimal 7 hari
+                        kerja ke email ketua tim, setelah kamu upload bukti
+                        pembayaran ya!.
                       </p>
                       <br></br>
                       <h4>
-                        5. Minsa, aku sudah bayar registrasinya nih,
-                        upload bukti pembayarannya kemana ya ?
+                        7. Minsa, satu minggu lagi penjurian nih kok aku belum
+                        terima jadwal presentasi tim aku ya?
                       </h4>
                       <p>
-                        Jika sudah melakukan pembayaran, kamu bisa
-                        upload buktinya ke link yang tercantum di
-                        invoice, dan pastikan kamu mengisi dan
-                        mengupload bukti transfer dengan benar agar
-                        panitia dapat mendatanya dengan benar juga.
-                      </p>
-                      <br></br>
-                      <h4>
-                        6. Kalau kwitansinya kapan di kirimkan ke kami
-                        ?
-                      </h4>
-                      <p>
-                        Kuitansi pembayaran akan kami kirimkan
-                        maksimal 7 hari kerja ke email ketua tim,
-                        setelah kamu upload bukti pembayaran ya!.
-                      </p>
-                      <br></br>
-                      <h4>
-                        7. Minsa, satu minggu lagi penjurian nih kok
-                        aku belum terima jadwal presentasi tim aku ya?
-                      </h4>
-                      <p>
-                        Jadwal presentasi peserta online akan kami
-                        kirimkan selambatnya 2 hari sebelum penjurian
-                        berlangsung ke whatsapp grup dan juga email
-                        ketua tim. Pastikan kamu rajin cek informasi
-                        yang kami berikan di whatsapp grup dan juga
-                        email ya!.
+                        Jadwal presentasi peserta online akan kami kirimkan
+                        selambatnya 2 hari sebelum penjurian berlangsung ke
+                        whatsapp grup dan juga email ketua tim. Pastikan kamu
+                        rajin cek informasi yang kami berikan di whatsapp grup
+                        dan juga email ya!.
                       </p>
 
                       <br></br>
@@ -573,14 +528,12 @@ const Home = () => {
                       <br></br>
 
                       <h4>
-                        1. Kapan jadwal presentasi akan diberikan oleh
-                        panitia?
+                        1. Kapan jadwal presentasi akan diberikan oleh panitia?
                       </h4>
                       <p>
-                        Jadwal presentasi akan kami berikan
-                        selambatnya 2 hari sebelum penjurian
-                        berlangsung atau bisa juga lebih cepat, dan
-                        kami kirimkan melalui WA grup dan juga e-mail
+                        Jadwal presentasi akan kami berikan selambatnya 2 hari
+                        sebelum penjurian berlangsung atau bisa juga lebih
+                        cepat, dan kami kirimkan melalui WA grup dan juga e-mail
                         ketua tim.
                       </p>
                       <br></br>
@@ -589,19 +542,16 @@ const Home = () => {
                         Zoom,Google meet atau yg lainnya?
                       </h4>
                       <p>
-                        Untuk penjurian online kami selalu memakai
-                        aplikasi Zoom ya teman-teman, dan pastikan
-                        aplikasi Zoom kamu sudah yang terbaru yaa.
+                        Untuk penjurian online kami selalu memakai aplikasi Zoom
+                        ya teman-teman, dan pastikan aplikasi Zoom kamu sudah
+                        yang terbaru yaa.
                       </p>
                       <br></br>
-                      <h4>
-                        3. Kapan link zoom akan di berikan oleh
-                        panitia?
-                      </h4>
+                      <h4>3. Kapan link zoom akan di berikan oleh panitia?</h4>
                       <p>
-                        Link Zoom akan kami berikan dihari penjurian,
-                        dan akan kami kirim berkala di grup sesuai jam
-                        presentasi tim kalian.
+                        Link Zoom akan kami berikan dihari penjurian, dan akan
+                        kami kirim berkala di grup sesuai jam presentasi tim
+                        kalian.
                       </p>
                       <br></br>
                       <h4>
@@ -609,45 +559,40 @@ const Home = () => {
                         penamaannya seperti apa?
                       </h4>
                       <p>
-                        Teman-teman bisa masuk ke Zoom maksimal dengan
-                        5 akun untuk peserta, dan semua akun Zoom
-                        harus mengikuti format nama yang sudah kami
-                        berikan yaitu "Nomor ruangan_Nama Ketua
-                        Tim_Nama Institusi”.
+                        Teman-teman bisa masuk ke Zoom maksimal dengan 5 akun
+                        untuk peserta, dan semua akun Zoom harus mengikuti
+                        format nama yang sudah kami berikan yaitu "Nomor
+                        ruangan_Nama Ketua Tim_Nama Institusi”.
+                      </p>
+                      <br></br>
+                      <h4>5. Berapa durasi peserta melakukan presentasi?</h4>
+                      <p>
+                        Teman-teman akan diberikan waktu 15 menit untuk 1 sesi
+                        presentasi yang akan dibagi 2 yaitu 7 menit awal untuk
+                        presentasi dan 8 menit akhir untuk sesi tanya jawab
+                        dengan juri.
                       </p>
                       <br></br>
                       <h4>
-                        5. Berapa durasi peserta melakukan presentasi?
+                        6. Berapa juri yang akan datang ke booth peserta offline
+                        kak?
                       </h4>
                       <p>
-                        Teman-teman akan diberikan waktu 15 menit
-                        untuk 1 sesi presentasi yang akan dibagi 2
-                        yaitu 7 menit awal untuk presentasi dan 8
-                        menit akhir untuk sesi tanya jawab dengan
-                        juri.
+                        Sama seperti penjurian online, akan ada 2 juri yang
+                        menjurikan setiap tim. Dan setelah selesai dijurikan
+                        kamu akan diberikan stiker sebagai tanda booth kamu
+                        sudah dijurikan, pastikan kamu mendapatkan 2 stiker ya.
                       </p>
                       <br></br>
                       <h4>
-                        6. Berapa juri yang akan datang ke booth
-                        peserta offline kak?
+                        7. Apakah setelah dijurikan kami bisa langsung merapikan
+                        booth kami?
                       </h4>
                       <p>
-                        Sama seperti penjurian online, akan ada 2 juri
-                        yang menjurikan setiap tim. Dan setelah
-                        selesai dijurikan kamu akan diberikan stiker
-                        sebagai tanda booth kamu sudah dijurikan,
-                        pastikan kamu mendapatkan 2 stiker ya.
-                      </p>
-                      <br></br>
-                      <h4>
-                        7. Apakah setelah dijurikan kami bisa langsung
-                        merapikan booth kami?
-                      </h4>
-                      <p>
-                        Kamu bisa mulai merapikan booth ketika semua
-                        tim sudah selesai dijurikan ya, jadi kalau
-                        kamu sudah selesai dijurikan kamu bisa
-                        berkunjung dulu ke booth peserta lain.
+                        Kamu bisa mulai merapikan booth ketika semua tim sudah
+                        selesai dijurikan ya, jadi kalau kamu sudah selesai
+                        dijurikan kamu bisa berkunjung dulu ke booth peserta
+                        lain.
                       </p>
 
                       <br></br>
@@ -657,46 +602,38 @@ const Home = () => {
 
                       <h4>1. Kapan pemngumuman pemenang?</h4>
                       <p>
-                        Pengumuman pemenang dilaksanakan pada hari
-                        terakhir disetiap event, kamu bisa cek
-                        tanggalnya di jadwal yang tertera di Guide
-                        Book.
+                        Pengumuman pemenang dilaksanakan pada hari terakhir
+                        disetiap event, kamu bisa cek tanggalnya di jadwal yang
+                        tertera di Guide Book.
                       </p>
                       <br></br>
-                      <h4>
-                        2. Di mana kami bisa melihat hasil pemenang
-                      </h4>
+                      <h4>2. Di mana kami bisa melihat hasil pemenang</h4>
                       <p>
-                        Kamu bisa cek hasil pemenang di official
-                        website dari event yang kamu ikuti.
+                        Kamu bisa cek hasil pemenang di official website dari
+                        event yang kamu ikuti.
                       </p>
                       <br></br>
                       <h4>3. Kapan E-certificate akan dikirmkan</h4>
                       <p>
-                        IYSA TIDAK mengirimkan E-Certificate untuk
-                        peserta Nasional atau Peserta Indonesia yang
-                        mengikuti event secara online. Peserta
-                        Nasional Online hanya akan mendapatkan
-                        sertifikat dalam bentuk TERCETAK/Hard yang
-                        nantinya akan dikirimkan bersama dengan medali
-                        melalui ekspedisi JNEIYSA TIDAK mengirimkan
-                        E-Certificate untuk peserta Nasional atau
-                        Peserta Indonesia yang mengikuti event secara
-                        online. Peserta Nasional Online hanya akan
-                        mendapatkan sertifikat dalam bentuk
-                        TERCETAK/Hard yang nantinya akan dikirimkan
-                        bersama dengan medali melalui ekspedisi JNE.
+                        IYSA TIDAK mengirimkan E-Certificate untuk peserta
+                        Nasional atau Peserta Indonesia yang mengikuti event
+                        secara online. Peserta Nasional Online hanya akan
+                        mendapatkan sertifikat dalam bentuk TERCETAK/Hard yang
+                        nantinya akan dikirimkan bersama dengan medali melalui
+                        ekspedisi JNEIYSA TIDAK mengirimkan E-Certificate untuk
+                        peserta Nasional atau Peserta Indonesia yang mengikuti
+                        event secara online. Peserta Nasional Online hanya akan
+                        mendapatkan sertifikat dalam bentuk TERCETAK/Hard yang
+                        nantinya akan dikirimkan bersama dengan medali melalui
+                        ekspedisi JNE.
                       </p>
                       <br></br>
-                      <h4>
-                        4. Kapan pengiriman sertifikat peserta online?
-                      </h4>
+                      <h4>4. Kapan pengiriman sertifikat peserta online?</h4>
                       <p>
-                        Sertifikat akan dikirimkan selambatnya satu
-                        bulan setelah pengumuman pemenang. Kamu bisa
-                        cek secara berkala resi pengiriman yang kami
-                        kirimkan di Whatsapp grup apakah sertifikat
-                        kamu sudah dikirim atau belum.
+                        Sertifikat akan dikirimkan selambatnya satu bulan
+                        setelah pengumuman pemenang. Kamu bisa cek secara
+                        berkala resi pengiriman yang kami kirimkan di Whatsapp
+                        grup apakah sertifikat kamu sudah dikirim atau belum.
                       </p>
                       <br></br>
                       <h4>
@@ -705,22 +642,18 @@ const Home = () => {
                       </h4>
                       <p>
                         Kamu bisa melihat dan mengunduh sertifikat
-                        supervisor/pembimbing di official website dari
-                        event yang kamu ikuti.
+                        supervisor/pembimbing di official website dari event
+                        yang kamu ikuti.
                       </p>
                       <br></br>
-                      <h4>
-                        6. Bagaimana cara melakukan penggandaan
-                        medali?
-                      </h4>
+                      <h4>6. Bagaimana cara melakukan penggandaan medali?</h4>
                       <p>
-                        Untuk peserta offline kamu bisa langsung
-                        melakukan penggandaan medali di tempat setelah
-                        pengumuman pemenang berlangsung. Dan untuk
-                        peserta online kamu bisa melakukan penggandaan
-                        medali melalui link yang kami kirimkan di
-                        Whatsapp grup, kami akan mengirimkan informasi
-                        penggandaan di Whatsapp grup selambatnya 2
+                        Untuk peserta offline kamu bisa langsung melakukan
+                        penggandaan medali di tempat setelah pengumuman pemenang
+                        berlangsung. Dan untuk peserta online kamu bisa
+                        melakukan penggandaan medali melalui link yang kami
+                        kirimkan di Whatsapp grup, kami akan mengirimkan
+                        informasi penggandaan di Whatsapp grup selambatnya 2
                         hari setelah pengumuman pemenang.
                       </p>
                     </div>
@@ -959,34 +892,28 @@ const Home = () => {
                 <div className="container">
                   <div className="row contact-info-row text-center wow fadeIn">
                     <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div
-                        className="contact-col-info"
-                        data-wow-delay=".2s"
-                      >
+                      <div className="contact-col-info" data-wow-delay=".2s">
                         <i
                           className="fa fa-map-marker contact-icon"
                           aria-hidden="true"
-                          
                         ></i>
                         <h3>Address</h3>
                         <a
                           href="https://maps.app.goo.gl/77HgPoe2Mhp6jPTn9"
-                          target='_blank'
+                          target="_blank"
                           style={{
-                            color: 'black',
-                            textDecoration: 'none',
-                            fontSize: '17px',
+                            color: "black",
+                            textDecoration: "none",
+                            fontSize: "17px",
                           }}
                         >
-                          Jl. Kemang, Pasir Putih, Kec. Sawangan, Kota Depok, Jawa Barat 16519
+                          Jl. Kemang, Pasir Putih, Kec. Sawangan, Kota Depok,
+                          Jawa Barat 16519
                         </a>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div
-                        className="contact-col-info"
-                        data-wow-delay=".4s"
-                      >
+                      <div className="contact-col-info" data-wow-delay=".4s">
                         <i
                           className="fa fa-envelope contact-icon"
                           aria-hidden="true"
@@ -995,9 +922,9 @@ const Home = () => {
                         <a
                           href="mailto:contact.youngscientist.iysa@gmail.com"
                           style={{
-                            color: 'black',
-                            textDecoration: 'none',
-                            fontSize: '17px',
+                            color: "black",
+                            textDecoration: "none",
+                            fontSize: "17px",
                           }}
                         >
                           youngscientist.iysa@gmail.com
@@ -1005,10 +932,7 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div
-                        className="contact-col-info"
-                        data-wow-delay=".6s"
-                      >
+                      <div className="contact-col-info" data-wow-delay=".6s">
                         <i
                           className="fa fa-mobile contact-icon"
                           aria-hidden="true"
@@ -1016,11 +940,11 @@ const Home = () => {
                         <h3>Phone</h3>
                         <a
                           href="https://wa.me/6281770914129"
-                          target='_blank'
+                          target="_blank"
                           style={{
-                            color: 'black',
-                            textDecoration: 'none',
-                            fontSize: '17px',
+                            color: "black",
+                            textDecoration: "none",
+                            fontSize: "17px",
                           }}
                         >
                           +62 81770914129
@@ -1028,10 +952,7 @@ const Home = () => {
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
-                      <div
-                        className="contact-col-info"
-                        data-wow-delay=".6s"
-                      >
+                      <div className="contact-col-info" data-wow-delay=".6s">
                         <i
                           className="fa fa-television contact-icon"
                           aria-hidden="true"
@@ -1039,11 +960,11 @@ const Home = () => {
                         <h3>Website</h3>
                         <a
                           href="https://www.iysa.or.id/"
-                          target='_blank'
+                          target="_blank"
                           style={{
-                            color: 'black',
-                            textDecoration: 'none',
-                            fontSize: '17px',
+                            color: "black",
+                            textDecoration: "none",
+                            fontSize: "17px",
                           }}
                         >
                           iysa.or.id
