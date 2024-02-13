@@ -33,11 +33,11 @@ const Home = () => {
                         <ul className="">
                           <li>
                             <button className="btn-primary">
-                              <a href="/" target="newtab"></a>
-                              Coming Soon 2024
+                              <a href="https://registrasi-iifnasional-2024.vercel.app/" target="newtab"></a>
+                              Buka Pendaftaran 2024
                             </button>
                             <button className="btn-primary">
-                              <a href="/" target="newtab"></a>
+                              <a href="https://drive.google.com/file/d/167kKqLfQrdOMEngkM9j3nKnmGepEmAu-/view?usp=sharing" target="newtab"></a>
                               Buku Panduan
                             </button>
                           </li>
