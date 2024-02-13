@@ -33,12 +33,28 @@ const Home = () => {
                         <ul className="">
                           <li>
                             <button className="btn-primary">
-                              <a href="https://registrasi-iifnasional-2024.vercel.app/" target="newtab"></a>
-                              Buka Pendaftaran 2024
+                              <a
+                                className="btn-primary"
+                                href="https://registrasi-iifnasional-2024.vercel.app/"
+                                style={{
+                                  textDecoration: "none",
+                                }}
+                                target="_blank"
+                              >
+                                Buka Pendaftaran 2024
+                              </a>
                             </button>
                             <button className="btn-primary">
-                              <a href="https://drive.google.com/file/d/167kKqLfQrdOMEngkM9j3nKnmGepEmAu-/view?usp=sharing" target="newtab"></a>
-                              Buku Panduan
+                              <a
+                                className="btn-primary"
+                                href="https://drive.google.com/file/d/167kKqLfQrdOMEngkM9j3nKnmGepEmAu-/view?usp=sharing"
+                                style={{
+                                  textDecoration: "none",
+                                }}
+                                target="_blank"
+                              >
+                                Buku Panduan
+                              </a>
                             </button>
                           </li>
                         </ul>
@@ -473,7 +489,8 @@ const Home = () => {
                       <br></br>
                       <h4>3. Upload berkas lomba di mana sih Minsa ?</h4>
                       <p>
-                      Link drive untuk upload berkas dan link untuk upload bukti pembayaran akan dicantumkan di invoice.
+                        Link drive untuk upload berkas dan link untuk upload
+                        bukti pembayaran akan dicantumkan di invoice.
                       </p>
                       <br></br>
                       <h4>
