@@ -493,15 +493,18 @@ const Home = () => {
                     <h3>After Movie 2023</h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
-                    <iframe
-                      className="after-movie col-md-12 col-sm-6 mt-5 mb-5"
-                      height="600" 
-                      src="https://www.youtube.com/embed/9rTOH_jqUeY?si=9iObG3mEDQJ4NM5L"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
+                    <div className="yt">
+                      <iframe
+                        className="after-movie mt-5 mb-5"
+                        height="100%"
+                        width="415"
+                        src="https://www.youtube.com/embed/9rTOH_jqUeY?si=9iObG3mEDQJ4NM5L"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -617,6 +617,8 @@ section:nth-of-type(2) {
   line-height: 30px;
 }
 
+
+
 .btn-primary{
   margin: 5px;
   font-weight: bold;
@@ -812,6 +814,8 @@ justify-content: center;
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
 }
+
+
 
 .about-image:hover{
   -ms-transform: scale(1.1); /* IE 9 */
@@ -2862,6 +2866,9 @@ blockquote {
 }
 
 @media screen and (max-width: 480px) {
+  .after-movie {
+    width: 10px !important;
+  }
   .wow {
     animation-name: none !important;
     visibility: visible !important;
@@ -2909,9 +2916,8 @@ blockquote {
 @media screen and (max-width: 320px) {
 
   .about-img{
-    width: 10px !important;
+    width: 20px !important;
   }
-
 
   .home-row {
     z-index: 2;
