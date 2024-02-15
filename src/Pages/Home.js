@@ -472,7 +472,7 @@ const Home = () => {
 
         {/* ================================After Movie==================================== */}
 
-        <div className="about-back"></div>
+        {/* <div className="about-back"></div>
         <div className="me-grid">
           <div className="container">
             <div className="row">
@@ -510,7 +510,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* ================================After Movie==================================== */}
 
