@@ -476,7 +476,7 @@ const Home = () => {
         <div className="me-grid">
           <div className="container">
             <div className="row">
-              {/* <div className="col-md-4 col-sm-6 col-xs-12 about-col">
+              <div className="col-md-4 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
                         src="./assets/logo/9.jpg"
@@ -485,11 +485,10 @@ const Home = () => {
                         className="about-img wow fadeIn"
                       />
                     </div>
-                  </div> */}
+                  </div>
               <div className="col-md-12 col-sm-6 col-xs-12 about-col">
                 <div className="about-details wow fadeIn">
                   <div className="main-title left-title text-center wow fadeIn">
-                    {/* <h4>Tugu Pahlawan, Surabaya, Photo by:IG @ayodab</h4> */}
                     <h3>After Movie 2023</h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
