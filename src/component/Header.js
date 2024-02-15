@@ -147,6 +147,17 @@ const Header = () => {
                 </li>
               </ul>
             </li>
+            <li className="menu-item menu-item-has-children">
+              <a href="" data-toggle="sub-menu">
+                Kurasi
+                
+              </a>
+              <ul className="sub-menu text-center">
+                <li className="menu-item">
+                  <a href="https://drive.google.com/drive/folders/1OV_ezBzC8nIE5iWQ_h96jwmQN2Otl66s?usp=sharing" target="_blank">Kurasi 2023</a>
+                </li>
+              </ul>
+            </li>
             {/* <li className="menu-item">
               <a href="/NewsletterPage">Guide Book</a>
             </li> */}
@@ -172,7 +183,7 @@ const Header = () => {
               </ul>
             </li> */}
             <li className="menu-item">
-              <a href="/#faq">FAQ</a>
+              <a href="/faq">FAQ</a>
             </li>
             <li className="menu-item">
               <a href="/#contact">Kontak</a>

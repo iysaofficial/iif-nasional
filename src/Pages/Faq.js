@@ -2,7 +2,7 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
-const FormExample = () => {
+const Faq = () => {
   return (
     <React.StrictMode>
       <div id="blog">
@@ -630,4 +630,4 @@ const FormExample = () => {
   );
 };
 
-export default FormExample;
+export default Faq;

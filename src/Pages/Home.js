@@ -41,7 +41,7 @@ const Home = () => {
                                 }}
                                 target="_blank"
                               >
-                                Buka Pendaftaran 2024
+                                Buka Pendaftaran
                               </a>
                             </button>
                             <button className="btn-primary">
@@ -82,31 +82,39 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        Invention and Innovation Fair (IIF) adalah event
-                        Regional pertama yang diselenggarakan IYSA. Merupakan
-                        ajang adu kemampuan para peneliti muda dalam
-                        mempresentasikan hasil penelitian yang telah mereka
-                        lakukan. Melalui Invention and Innovation Fair 2023,
-                        para peneliti muda berkesempatan untuk memaparkan hasil
-                        karya mereka, memperkaya wawasan, meningkatkan kemampuan
-                        berkomunikasi dan berkesempatan untuk berkompetisi di
-                        tingkat regional.
+                        Indonesian Young Scientist Association (IYSA) adalah
+                        sebuah lembaga yang memfasilitasi pelajar Indonesia
+                        untuk dapat mengembangkan potensi di bidang keilmuan
+                        baik di dalam negeri maupun luar negeri. IYSA berdiri
+                        sebagai bentuk concern kami untuk memberikan kesempatan
+                        kepada pelajar Indonesia khususnya agar dapat
+                        memunculkan potensi dan skills yang dimiliki serta
+                        menumbuhkan jiwa kompetisi dalam diri mereka. Hal ini
+                        kami lakukan untuk menciptakan perbaikan kehidupan.
+                        Karena, kami yakin bahwa setiap pelajar memiliki potensi
+                        yang dapat dikembangkan.
                       </p>
                       <p>
-                        Setelah kemarin sukses melaksanakan IIF regional pertama
-                        di Jawa Timur, IYSA akan mengadakan kembali IIF untuk
-                        tingkat Nasional. Dalam tingkat Nasional ini IYSA
-                        bekerja sama dengan Universitas Udayana Jimbaran, Bali
-                        yang akan diadakan pada tanggal 8 - 11 November 2023.
-                        Kompetisi ini diselenggarakan secara Luring (Offline
-                        Competition).
+                        Invention and Innovation Fair (IIF) merupakan ajang adu
+                        kemampuan para peneliti muda dalam mempresentasikan
+                        hasil penelitian yang telah mereka lakukan. Melalui
+                        Invention and Innovation Fair 2024, para peneliti muda
+                        berkesempatan untuk memaparkan hasil karya mereka,
+                        memperkaya wawasan, meningkatkan kemampuan berkomunikasi
+                        dan berkesempatan untuk berkompetisi di tingkat
+                        regional.
+                      </p>
+                      <p>
+                        Setelah kemarin sukses melaksanakan IIF di Bali, IYSA
+                        akan mengadakan kembali IIF pada 29 sampai 31 Maret 2024
+                        secara daring (online competition)
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="row love-row wow fadeIn">
                   <div className="main-title text-center">
-                    <h3>Afiliasi</h3>
+                    <h3>diselenggarakan Oleh</h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
                     <p></p>
@@ -118,23 +126,23 @@ const Home = () => {
               <div className="counter">
                 <div className="container">
                   <div className="row wow fadeIn">
-                    <div className="col-md-3 col-sm-6">
+                    {/* <div className="col-md-3 col-sm-6">
                       <div className="">
                         <img
                           src="./assets/logo/aff1.svg"
                           className="image-ipb m-4"
                         />
                       </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
+                    </div> */}
+                    <div className="col-md-6 col-sm-6">
                       <div className="">
                         <img
-                          src="./assets/logo/aff2.svg"
+                          src="./assets/logo/LOGO-AKTUARIA-3.png"
                           className=" image-ipb2 m-4"
                         />
                       </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-md-6 col-sm-6">
                       <div className="">
                         <img
                           src="./assets/logo/aff3.svg"
@@ -142,14 +150,14 @@ const Home = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    {/* <div className="col-md-3 col-sm-6">
                       <div className="">
                         <img
                           src="./assets/logo/aff4.svg"
                           className=" image-prestasididik m-4"
                         />
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -166,7 +174,8 @@ const Home = () => {
                   <div className="col-md-4 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
-                        src="./assets/logo/add2.jpg"
+                        src="./assets/logo/9.jpg"
+                        data-wow-delay=".1s"
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
@@ -175,19 +184,28 @@ const Home = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h4>Tugu Pahlawan, Surabaya, Photo by:IG @ayodab</h4>
+                        {/* <h4>Tugu Pahlawan, Surabaya, Photo by:IG @ayodab</h4> */}
                         <h3>MEKANISME KOMPETISI</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        1. Setiap tim wajib membawa poster ukuran A0,
-                        mendekorasi stan yang disediakan panitia. (dekorasi
-                        tidak boleh berlebihan/di luar tema proyek)
+                        1. Seluruh tim yang berpartisipasi akan menjalani
+                        penjurian menggunakan media Zoom.
                       </p>
                       <p>
-                        2. Penjurian akan dilakukan secara luring di stan masing
-                        - masing peserta
+                        2. Presentasi dilakukan dalam bahasa Indonesia, dan
+                        materi presentasi (PowerPoint) harus dibuat dengan
+                        menggunakan bahasa Indonesia yang baik dan benar.
+                      </p>
+                      <p>
+                        3 .Setiap tim akan diberikan waktu 15 menit yang terbagi
+                        menjadi 7 menit untuk presentasi dan 8 menit untuk sesi
+                        tanya jawab dengan juri.
+                      </p>
+                      <p>
+                        4.Saat melakukan presentasi, peserta diharapkan membawa
+                        produknya.
                       </p>
                     </div>
                   </div>
@@ -452,9 +470,50 @@ const Home = () => {
 
         {/* <!-- ================================ Skill =============================== --> */}
 
+        {/* ================================After Movie==================================== */}
+
+        <div className="about-back"></div>
+        <div className="me-grid">
+          <div className="container">
+            <div className="row">
+              {/* <div className="col-md-4 col-sm-6 col-xs-12 about-col">
+                    <div className="about-image">
+                      <img
+                        src="./assets/logo/9.jpg"
+                        data-wow-delay=".1s"
+                        alt="sanajit-jana"
+                        className="about-img wow fadeIn"
+                      />
+                    </div>
+                  </div> */}
+              <div className="col-md-12 col-sm-6 col-xs-12 about-col">
+                <div className="about-details wow fadeIn">
+                  <div className="main-title left-title text-center wow fadeIn">
+                    {/* <h4>Tugu Pahlawan, Surabaya, Photo by:IG @ayodab</h4> */}
+                    <h3>After Movie 2023</h3>
+                    <div className="underline1"></div>
+                    <div className="underline2"></div>
+                    <iframe
+                      className="after-movie col-md-12 mt-5 mb-5"
+                      height="600" 
+                      src="https://www.youtube.com/embed/9rTOH_jqUeY?si=9iObG3mEDQJ4NM5L"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ================================After Movie==================================== */}
+
         {/* <!-- ================================ faq =============================== --> */}
 
-        <div id="faq">
+        {/* <div id="faq">
           <div className="resume-content">
             <div className="resume-grid text-center">
               <div className="container">
@@ -677,7 +736,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- ================================ faq =============================== --> */}
 
@@ -935,14 +994,14 @@ const Home = () => {
                         ></i>
                         <h3>Email</h3>
                         <a
-                          href="mailto:contact.youngscientist.iysa@gmail.com"
+                          href="mailto:iif.iysaofficial@gmail.com"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
                         >
-                          youngscientist.iysa@gmail.com
+                          iif.iysaofficial@gmail.com
                         </a>
                       </div>
                     </div>
