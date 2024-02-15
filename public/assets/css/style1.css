@@ -2850,7 +2850,7 @@ blockquote {
 
 @media screen and (max-width: 640px) {
   .about-img{
-    width: 500px !important;
+    width: 200px !important;
   }
   .contact-form {
     width: 100%;
