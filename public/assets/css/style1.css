@@ -2869,14 +2869,11 @@ blockquote {
     width: 100%;
   }
   .card .card-body iframe{
-    width: 20px !important;
+    width: 400px !important;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .after-movie {
-    width: 10px !important;
-  }
+@media screen and (max-width: 427px) {
   .wow {
     animation-name: none !important;
     visibility: visible !important;
@@ -2920,7 +2917,13 @@ blockquote {
     font-size: 10px;
   }
   .card .card-body iframe{
-    width: 400px !important;
+    width: 370px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card .card-body iframe{
+    width: 350px !important;
   }
 }
 
@@ -2929,7 +2932,7 @@ blockquote {
 @media screen and (max-width: 320px) {
 
   .card .card-body iframe{
-    width: 40px !important;
+    width: 300px !important;
   }
 
   .home-row {
