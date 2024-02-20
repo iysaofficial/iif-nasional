@@ -102,12 +102,12 @@ const Home = () => {
                         berkesempatan untuk memaparkan hasil karya mereka,
                         memperkaya wawasan, meningkatkan kemampuan berkomunikasi
                         dan berkesempatan untuk berkompetisi di tingkat
-                        regional.
+                        nasional.
                       </p>
                       <p>
                         Setelah kemarin sukses melaksanakan IIF di Bali, IYSA
                         akan mengadakan kembali IIF pada 29 sampai 31 Maret 2024
-                        secara daring (online competition)
+                        secara daring (Kompetisi Online)
                       </p>
                     </div>
                   </div>
@@ -472,44 +472,25 @@ const Home = () => {
 
         {/* ================================After Movie==================================== */}
 
-        {/* <div className="about-back"></div>
-        <div className="me-grid">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-4 col-sm-6 col-xs-12 about-col">
-                    <div className="about-image">
-                      <img
-                        src="./assets/logo/9.jpg"
-                        data-wow-delay=".1s"
-                        alt="sanajit-jana"
-                        className="about-img wow fadeIn"
-                      />
-                    </div>
-                  </div>
-              <div className="col-md-12 col-sm-6 col-xs-12 about-col">
-                <div className="about-details wow fadeIn">
-                  <div className="main-title left-title text-center wow fadeIn">
-                    <h3>After Movie 2023</h3>
-                    <div className="underline1"></div>
-                    <div className="underline2"></div>
-                    <div className="yt">
-                      <iframe
-                        className="after-movie mt-5 mb-5"
-                        height="100%"
-                        width="415"
-                        src="https://www.youtube.com/embed/9rTOH_jqUeY?si=9iObG3mEDQJ4NM5L"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card text-center mt-5">
+          <div className="main-title text-center wow fadeIn">
+            <h3>After Movie 2023</h3>
+            <div className="underline1"></div>
+            <div className="underline2"></div>
           </div>
-        </div> */}
+          <div class="card-body">
+            {/* <h5 class="card-title">Special title treatment</h5> */}
+            <iframe
+              width="800"
+              height="450"
+              src="https://www.youtube.com/embed/9rTOH_jqUeY?si=ego-QaWJ0ISScpQm"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
         {/* ================================After Movie==================================== */}
 

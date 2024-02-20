@@ -143,7 +143,7 @@ const Header = () => {
               </a>
               <ul className="sub-menu text-center">
                 <li className="menu-item">
-                  <a href="https://drive.google.com/file/d/1Bqn5Oa7_bZeFxe5R3-vXUt131yUHnAWn/view?usp=sharing" target="_blank">Daftar Pemenang</a>
+                  <a href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing" target="_blank">Daftar Pemenang</a>
                 </li>
               </ul>
             </li>

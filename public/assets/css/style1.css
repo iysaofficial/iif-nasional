@@ -2705,6 +2705,11 @@ blockquote {
   color: black;
 }
 
+
+.card .card-body iframe{
+  margin-top: 20px;
+}
+
 /*=============================================================== RESPONSIVE ======================================================*/
 
 @media screen and (max-width: 768px) {
@@ -2863,6 +2868,9 @@ blockquote {
   .work-counter {
     width: 100%;
   }
+  .card .card-body iframe{
+    width: 20px !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -2911,12 +2919,17 @@ blockquote {
   .is-hidden .is-visible {
     font-size: 10px;
   }
+  .card .card-body iframe{
+    width: 400px !important;
+  }
 }
+
+
 
 @media screen and (max-width: 320px) {
 
-  .about-img{
-    width: 20px !important;
+  .card .card-body iframe{
+    width: 40px !important;
   }
 
   .home-row {
