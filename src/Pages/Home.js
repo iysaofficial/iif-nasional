@@ -35,13 +35,13 @@ const Home = () => {
                             <button className="btn-primary">
                               <a
                                 className="btn-primary"
-                                href="https://registrasi-iifnasional-2024.vercel.app/"
+                                href="/"
                                 style={{
                                   textDecoration: "none",
                                 }}
                                 target="_blank"
                               >
-                                Buka Pendaftaran
+                                Pendaftaran Ditutup
                               </a>
                             </button>
                             <button className="btn-primary">
