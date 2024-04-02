@@ -1,6 +1,5 @@
 // Import CSS
 
-
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -139,22 +138,30 @@ const Header = () => {
             <li className="menu-item menu-item-has-children">
               <a href="" data-toggle="sub-menu">
                 Daftar Pemenang
-                
               </a>
               <ul className="sub-menu text-center">
                 <li className="menu-item">
-                  <a href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing" target="_blank">Daftar Pemenang</a>
+                  <a
+                    href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Daftar Pemenang
+                  </a>
                 </li>
               </ul>
             </li>
             <li className="menu-item menu-item-has-children">
               <a href="" data-toggle="sub-menu">
                 Kurasi
-                
               </a>
               <ul className="sub-menu text-center">
                 <li className="menu-item">
-                  <a href="https://drive.google.com/drive/folders/1OV_ezBzC8nIE5iWQ_h96jwmQN2Otl66s?usp=sharing" target="_blank">Kurasi 2023</a>
+                  <a
+                    href="https://drive.google.com/drive/folders/1OV_ezBzC8nIE5iWQ_h96jwmQN2Otl66s?usp=sharing"
+                    target="_blank"
+                  >
+                    Kurasi 2023
+                  </a>
                 </li>
               </ul>
             </li>
@@ -182,6 +189,9 @@ const Header = () => {
                 </li>
               </ul>
             </li> */}
+            <li className="menu-item">
+              <a href="https://drive.google.com/drive/folders/1A86ls7dIOAZlrS_WQHyIm09NDc3CnhTN?usp=sharing" target="_blank">Sertifikat Supervisor</a>
+            </li>
             <li className="menu-item">
               <a href="/faq">FAQ</a>
             </li>
