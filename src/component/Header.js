@@ -142,7 +142,7 @@ const Header = () => {
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
-                    href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1lpAa90TA7l-kX4g2own4_sMi9d2tjm4T/view?usp=sharing"
                     target="_blank"
                   >
                     Daftar Pemenang 2024  
