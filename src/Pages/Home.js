@@ -26,7 +26,7 @@ const Home = () => {
                           <b className="is-hidden">INNOVATION</b>
                           <b className="is-hidden">FAIR</b>
                           <b className="is-hidden">NASIONAL</b>
-                          <b className="is-visible">2024</b>
+                          <b className="is-visible">2025</b>
                         </span>
                       </h1>
                       <div className="about-social-icon text-center">
@@ -41,7 +41,7 @@ const Home = () => {
                                 }}
                                 target="_blank"
                               >
-                                Pendaftaran Ditutup
+                                Segera Hadir 2025
                               </a>
                             </button>
                             <button className="btn-primary">
