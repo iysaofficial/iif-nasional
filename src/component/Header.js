@@ -145,7 +145,15 @@ const Header = () => {
                     href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing"
                     target="_blank"
                   >
-                    Daftar Pemenang
+                    Daftar Pemenang 2024  
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Daftar Pemenang 2023
                   </a>
                 </li>
               </ul>
@@ -190,7 +198,12 @@ const Header = () => {
               </ul>
             </li> */}
             <li className="menu-item">
-              <a href="https://drive.google.com/drive/folders/1A86ls7dIOAZlrS_WQHyIm09NDc3CnhTN?usp=sharing" target="_blank">Sertifikat Supervisor</a>
+              <a
+                href="https://drive.google.com/drive/folders/1A86ls7dIOAZlrS_WQHyIm09NDc3CnhTN?usp=sharing"
+                target="_blank"
+              >
+                Sertifikat Supervisor
+              </a>
             </li>
             <li className="menu-item">
               <a href="/faq">FAQ</a>
