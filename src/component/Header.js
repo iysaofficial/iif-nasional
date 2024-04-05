@@ -173,6 +173,21 @@ const Header = () => {
                 </li>
               </ul>
             </li>
+            <li className="menu-item menu-item-has-children">
+              <a href="" data-toggle="sub-menu">
+                News
+              </a>
+              <ul className="sub-menu text-center">
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/file/d/11i9_zuCRNPiDdsVmQM_--YbQEOgRvlKl/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Press Release 2024
+                  </a>
+                </li>
+              </ul>
+            </li>
             {/* <li className="menu-item">
               <a href="/NewsletterPage">Guide Book</a>
             </li> */}
