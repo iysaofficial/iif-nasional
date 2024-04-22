@@ -145,7 +145,7 @@ const Header = () => {
                     href="https://drive.google.com/file/d/1lpAa90TA7l-kX4g2own4_sMi9d2tjm4T/view?usp=sharing"
                     target="_blank"
                   >
-                    Daftar Pemenang 2024  
+                    Daftar Pemenang 2024
                   </a>
                 </li>
                 <li className="menu-item">
@@ -163,6 +163,14 @@ const Header = () => {
                 Kurasi
               </a>
               <ul className="sub-menu text-center">
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/drive/folders/1t2OIucLyMyindORVKtKLrG_R4WKik20O?usp=drive_link"
+                    target="_blank"
+                  >
+                    Kurasi 2024
+                  </a>
+                </li>
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1OV_ezBzC8nIE5iWQ_h96jwmQN2Otl66s?usp=sharing"
