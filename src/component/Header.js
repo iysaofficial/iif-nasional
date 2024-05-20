@@ -165,7 +165,7 @@ const Header = () => {
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
-                    href="https://drive.google.com/drive/folders/1t2OIucLyMyindORVKtKLrG_R4WKik20O?usp=drive_link"
+                    href="https://drive.google.com/drive/folders/1K2ZmLBiRhm2NByXjy3WikeARYimR0DY_?usp=sharing"
                     target="_blank"
                   >
                     Kurasi 2024
