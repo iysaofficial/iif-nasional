@@ -26,8 +26,8 @@ const jenjangonline = () => {
               </div>
               <div className="row mx-auto" style={{ width:"50%"}}>
                 <a href="https://drive.google.com/file/d/1BLipKM6T3fFmQ6Xdt7jqxWiOq1M_ZTOb/view?usp=sharing" className="btn btn-primary" target="_blank" style={{fontSize:"22px",fontWeight:"bold"}}> Universitas</a>
-                <a href="https://drive.google.com/file/d/16p1T3Gs-sqIK8Xvzrf5TVMkegwvT5GDV/view?usp=sharing" className="btn btn-primary" target="_blank" style={{fontSize:"22px",fontWeight:"bold"}}> Sekolah Menengah Atas (SMA) </a>
-                <a href="https://drive.google.com/file/d/1jd17J4knvtD-IdliUIZgKTIz85BNrh3i/view?usp=sharing" className="btn btn-primary" target="_blank" style={{fontSize:"22px",fontWeight:"bold"}}> Sekolah Menengah Pertama (SMP) </a>
+                <a href="https://drive.google.com/file/d/16p1T3Gs-sqIK8Xvzrf5TVMkegwvT5GDV/view?usp=sharing" className="btn btn-primary" target="_blank" style={{fontSize:"22px",fontWeight:"bold"}}> SMA </a>
+                <a href="https://drive.google.com/file/d/1jd17J4knvtD-IdliUIZgKTIz85BNrh3i/view?usp=sharing" className="btn btn-primary" target="_blank" style={{fontSize:"22px",fontWeight:"bold"}}> SMP </a>
               </div>
             </div>
           </div>
