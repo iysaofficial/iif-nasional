@@ -142,8 +142,8 @@ const Header = () => {
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
-                    href="https://drive.google.com/file/d/1lpAa90TA7l-kX4g2own4_sMi9d2tjm4T/view?usp=sharing"
-                    target="_blank"
+                    href="/kategori24"
+                    rel="noreferrer"
                   >
                     Daftar Pemenang 2024
                   </a>
@@ -152,6 +152,7 @@ const Header = () => {
                   <a
                     href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Daftar Pemenang 2023
                   </a>
@@ -167,6 +168,7 @@ const Header = () => {
                   <a
                     href="https://drive.google.com/drive/folders/1K2ZmLBiRhm2NByXjy3WikeARYimR0DY_?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Kurasi 2024
                   </a>
@@ -175,6 +177,7 @@ const Header = () => {
                   <a
                     href="https://drive.google.com/drive/folders/1OV_ezBzC8nIE5iWQ_h96jwmQN2Otl66s?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Kurasi 2023
                   </a>
@@ -190,6 +193,7 @@ const Header = () => {
                   <a
                     href="https://drive.google.com/file/d/11i9_zuCRNPiDdsVmQM_--YbQEOgRvlKl/view?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Press Release 2024
                   </a>
@@ -224,6 +228,7 @@ const Header = () => {
               <a
                 href="https://drive.google.com/drive/folders/1A86ls7dIOAZlrS_WQHyIm09NDc3CnhTN?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 Sertifikat Supervisor
               </a>
@@ -236,7 +241,8 @@ const Header = () => {
             </li>
             {/* <button type="button" class="btn btn-outline-primary">Registration</button> */}
             {/* <button type="button" class="btn btn-outline-secondary">
-              <a href="https://drive.google.com/file/d/1_znDEnS9LyvnZ5422OPDdAcS3Jyh6-V9/view?usp=sharing" rel="noreferrer noopener" target="_blank">
+              <a href="https://drive.google.com/file/d/1_znDEnS9LyvnZ5422OPDdAcS3Jyh6-V9/view?usp=sharing" rel="noreferrer noopener" target="_blank"
+              rel="noreferrer">
                 Buku Panduan
               </a>
             </button> */}
