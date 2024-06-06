@@ -136,28 +136,9 @@ const Header = () => {
               </ul>
             </li> */}
             <li className="menu-item menu-item-has-children">
-              <a href="" data-toggle="sub-menu">
+              <a href="/lowtahun" data-toggle="sub-menu">
                 Daftar Pemenang
               </a>
-              <ul className="sub-menu text-center">
-                <li className="menu-item">
-                  <a
-                    href="/kategori24"
-                    rel="noreferrer"
-                  >
-                    Daftar Pemenang 2024
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a
-                    href="https://drive.google.com/file/d/1MBXzE7u4wRKZpBK6D2PFQbePs7E6fu8u/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Daftar Pemenang 2023
-                  </a>
-                </li>
-              </ul>
             </li>
             <li className="menu-item menu-item-has-children">
               <a href="" data-toggle="sub-menu">
