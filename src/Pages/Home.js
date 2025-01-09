@@ -41,7 +41,7 @@ const Home = () => {
                                 }}
                                 target="_blank"
                               >
-                               Buka Pendaftaran 2025
+                                Buka Pendaftaran 2025
                               </a>
                             </button>
                             <button className="btn-primary">
@@ -95,19 +95,21 @@ const Home = () => {
                         yang dapat dikembangkan.
                       </p>
                       <p>
-                        Invention and Innovation Fair (IIF) merupakan ajang adu
+                        Invention and Innovation Fair (IIF) adalah event
+                        Nasional yang diselenggarakan IYSA. Merupakan ajang adu
                         kemampuan para peneliti muda dalam mempresentasikan
                         hasil penelitian yang telah mereka lakukan. Melalui
-                        Invention and Innovation Fair 2024, para peneliti muda
+                        Invention and Innovation Fair 2025, para peneliti muda
                         berkesempatan untuk memaparkan hasil karya mereka,
                         memperkaya wawasan, meningkatkan kemampuan berkomunikasi
                         dan berkesempatan untuk berkompetisi di tingkat
-                        nasional.
+                        Nasional.
                       </p>
                       <p>
-                        Setelah kemarin sukses melaksanakan IIF di Bali, IYSA
-                        akan mengadakan kembali IIF pada 29 sampai 31 Maret 2024
-                        secara daring (Kompetisi Online)
+                        Setelah kemarin sukses melaksanakan IIF nasional pertama
+                        di Bali, IYSA akan mengadakan kembali IIF Nasional
+                        secara daring (online) yang akan diadakan pada tahun
+                        2025.
                       </p>
                     </div>
                   </div>
@@ -996,7 +998,7 @@ const Home = () => {
                         ></i>
                         <h3>Phone</h3>
                         <a
-                          href="https://wa.me/6281770914129"
+                          href="https://wa.me/6288213248890"
                           target="_blank"
                           style={{
                             color: "black",
@@ -1004,7 +1006,7 @@ const Home = () => {
                             fontSize: "17px",
                           }}
                         >
-                          +62 81770914129
+                          +62 88213248890
                         </a>
                       </div>
                     </div>
