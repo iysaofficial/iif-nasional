@@ -476,7 +476,7 @@ const Home = () => {
 
         <div class="card text-center mt-5">
           <div className="main-title text-center wow fadeIn">
-            <h3>After Movie 2023</h3>
+            <h3>After Movie 2024</h3>
             <div className="underline1"></div>
             <div className="underline2"></div>
           </div>
