@@ -20,6 +20,7 @@ import kategori24 from "./Pages/LoW/2024/kategori";
 import kategori23 from "./Pages/LoW/2023/kategori";
 import jenjangonl24 from "./Pages/LoW/2024/jenjangonline";
 import jenjang23 from "./Pages/LoW/2023/jenjangonline";
+import kategori25 from "./Pages/LoW/2025/kategori";
 
 function App() {
   return (
@@ -34,10 +35,12 @@ function App() {
             <Route exact path="/form-example" component={FormExample} />
             <Route exact path="/faq" component={Faq} />
             <Route exact path="/Lowtahun" component={lowtahun} />
+            <Route exact path="/kategori25" component={kategori25} />
             <Route exact path="/kategori24" component={kategori24} />
             <Route exact path="/kategori23" component={kategori23} />
             <Route exact path="/jenjangonl24" component={jenjangonl24} />
             <Route exact path="/jenjang23" component={jenjang23} />
+            
           </Switch>
         </ScrollToTop>
         <Footer />
