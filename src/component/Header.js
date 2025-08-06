@@ -147,6 +147,15 @@ const Header = () => {
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
+                    href="https://drive.google.com/drive/u/0/folders/1SyFTOmgLJHpYxHnnsSFntJhZdMTWqoN4?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Kurasi 2025
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a
                     href="https://drive.google.com/drive/folders/1K2ZmLBiRhm2NByXjy3WikeARYimR0DY_?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
@@ -167,9 +176,18 @@ const Header = () => {
             </li>
             <li className="menu-item menu-item-has-children">
               <a href="" data-toggle="sub-menu">
-                News
+                Liputan Media
               </a>
               <ul className="sub-menu text-center">
+                <li className="menu-item">
+                  <a
+                    href="https://docs.google.com/document/d/1ezesJ_6t1-_r-XvQBY1dhonXeDEK2qK6Oyqfyc0OBng/edit?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Press Release 2025
+                  </a>
+                </li>
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/file/d/11i9_zuCRNPiDdsVmQM_--YbQEOgRvlKl/view?usp=sharing"
@@ -187,24 +205,21 @@ const Header = () => {
             {/* <li className="menu-item">
               <a href="/NewsletterPage">Newsletter</a>
             </li> */}
-            {/* <li className="menu-item menu-item-has-children">
+            <li className="menu-item menu-item-has-children">
               <a href="" data-toggle="sub-menu">
                 Gallery
               </a>
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
-                    href="https://drive.google.com/drive/u/2/folders/1UVZeNGaNWk-TyNgSY0lAsWUcN-X7Nxle"
-                    target="-blink"
+                    href="https://drive.google.com/drive/folders/1tWerDv4ZyIWdBsumxA3pdcYArdOobaKY?usp=sharing"
+                    target="_blank"
                   >
-                    Photo
+                    2025
                   </a>
                 </li>
-                <li className="menu-item">
-                  <a href="/GalleryVideo">Video</a>
-                </li>
               </ul>
-            </li> */}
+            </li>
             <li className="menu-item">
               <a
                 href="https://drive.google.com/drive/folders/1VvCQzxdZkr5j15nAN17PHyTeeTes15Qj?usp=sharing"

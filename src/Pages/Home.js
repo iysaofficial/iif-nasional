@@ -136,30 +136,22 @@ const Home = () => {
                         />
                       </div>
                     </div> */}
-                    <div className="col-md-6 col-sm-6">
+                    {/* <div className="col-md-6 col-sm-6">
                       <div className="">
                         <img
                           src="./assets/logo/LOGO-AKTUARIA-3.png"
                           className=" image-ipb2 m-4"
                         />
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-6 col-sm-6">
                       <div className="">
                         <img
-                          src="./assets/logo/aff3.svg"
+                          src="./assets/logo/IYSA.png"
                           className=" image-iysa m-4"
                         />
                       </div>
                     </div>
-                    {/* <div className="col-md-3 col-sm-6">
-                      <div className="">
-                        <img
-                          src="./assets/logo/aff4.svg"
-                          className=" image-prestasididik m-4"
-                        />
-                      </div>
-                    </div> */}
                   </div>
                 </div>
               </div>
@@ -476,7 +468,7 @@ const Home = () => {
 
         <div class="card text-center mt-5">
           <div className="main-title text-center wow fadeIn">
-            <h3>After Movie 2024</h3>
+            <h3>After Event 2025</h3>
             <div className="underline1"></div>
             <div className="underline2"></div>
           </div>
@@ -485,7 +477,7 @@ const Home = () => {
             <iframe
               width="800"
               height="450"
-              src="https://www.youtube.com/embed/NjLT_wwQtrQ?si=CFjY6evXn4xb2GOG"
+              src="https://www.youtube.com/embed/pVDThogh0xQ?si=TiM8we4yAl4dDQDQ"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
