@@ -9,45 +9,36 @@ const Home = () => {
           <div className="home-content-main">
             <div className="table-cell">
               <div className="container">
-                <div className="row home-row">
+                <div className="row home-row justify-content-center">
                   <div className="col-md-12 col-sm-12">
                     <div className="home-text wow fadeIn text-center">
-                      <h1 className="cd-headline clip is-full-width">
-                        <span
-                          className="cd-words-wrapper"
-                          style={{
-                            width: "266px",
-                            overflow: "hidden",
-                          }}
-                        >
-                          <b className="is-hidden">IIF-Nasional</b>
-                          <b className="is-hidden">INVENTION</b>
-                          <b className="is-hidden">AND</b>
-                          <b className="is-hidden">INNOVATION</b>
-                          <b className="is-hidden">FAIR</b>
-                          <b className="is-hidden">NASIONAL</b>
-                          <b className="is-visible">2026</b>
+                      {/* Headline */}
+                      <br/>
+                      <br/>
+                      <h2 className="cd-headline clip is-full-width mb-2 mt-3">
+                        <span className="subtitle is-visible">
+                          Invention and Innovation Fair Nasional
                         </span>
-                      </h1>
+                        <span className="subtitle is-visible">
+                          Buka Pendaftaran 2026
+                        </span>
+                      </h2>
+
+                      {/* CTA Buttons */}
                       <div className="about-social-icon text-center">
                         <ul className="">
                           <li>
-                            <button className="btn-primary">
+                            <button className="btn-primary" onClick={() => window.open("/homeindo", "_self")}>
                               <a
-                                className="btn-primary"
-                                href="/"
                                 style={{
                                   textDecoration: "none",
                                 }}
-                                target="_blank"
                               >
-                                Segera Hadir 2026
+                                Registrasi disini
                               </a>
                             </button>
-                            <button className="btn-primary">
+                            <button className="btn-primary" onClick={() => window.open("https://drive.google.com/file/d/1Z97vyjwo_lhVNde2lD2UQ6RtP602iU4P/view?usp=sharing", "_blank")}>
                               <a
-                                className="btn-primary"
-                                href="https://drive.google.com/file/d/1lViw-IyL-fGPt0U0EQkm52p6sR7zU3kU/view?usp=sharing"
                                 style={{
                                   textDecoration: "none",
                                 }}
@@ -99,17 +90,11 @@ const Home = () => {
                         Nasional yang diselenggarakan IYSA. Merupakan ajang adu
                         kemampuan para peneliti muda dalam mempresentasikan
                         hasil penelitian yang telah mereka lakukan. Melalui
-                        Invention and Innovation Fair 2025, para peneliti muda
+                        Invention and Innovation Fair, para peneliti muda
                         berkesempatan untuk memaparkan hasil karya mereka,
                         memperkaya wawasan, meningkatkan kemampuan berkomunikasi
                         dan berkesempatan untuk berkompetisi di tingkat
                         Nasional.
-                      </p>
-                      <p>
-                        Setelah kemarin sukses melaksanakan IIF nasional pertama
-                        di Bali, IYSA akan mengadakan kembali IIF Nasional
-                        secara daring (online) yang akan diadakan pada tahun
-                        2025.
                       </p>
                     </div>
                   </div>
@@ -1008,7 +993,7 @@ const Home = () => {
                           className="fa fa-television contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Website</h3>
+                        <h3>Website Utama</h3>
                         <a
                           href="https://www.iysa.or.id/"
                           target="_blank"

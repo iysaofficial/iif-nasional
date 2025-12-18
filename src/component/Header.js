@@ -109,10 +109,6 @@ const Header = () => {
         <div className="menu-overlay"></div>
         <nav className="nav-menu ">
           <div className="close-nav-menu">
-            {/* <img
-                src="./assets/images/logo/icons8-close.svg"
-                alt="close"
-              /> */}
             <FontAwesomeIcon icon={faXmark} />
           </div>
           <ul className="menu">
@@ -122,19 +118,6 @@ const Header = () => {
             <li className="menu-item">
               <a href="/#about">Tetang</a>
             </li>
-            {/* <li className="menu-item menu-item-has-children">
-              <a href="" data-toggle="sub-menu">
-                Curation
-              </a>
-              <ul className="sub-menu text-center">
-                <li className="menu-item">
-                  <a href="/CurationOSPC">Curation OSPC</a>
-                </li>
-                <li className="menu-item">
-                  <a href="/CurationLKTIN">Curation LKTIN</a>
-                </li>
-              </ul>
-            </li> */}
             <li className="menu-item menu-item-has-children">
               <a href="/lowtahun" data-toggle="sub-menu">
                 Daftar Pemenang
@@ -199,20 +182,15 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-            {/* <li className="menu-item">
-              <a href="/NewsletterPage">Guide Book</a>
-            </li> */}
-            {/* <li className="menu-item">
-              <a href="/NewsletterPage">Newsletter</a>
-            </li> */}
             <li className="menu-item menu-item-has-children">
-              <a href="" data-toggle="sub-menu">
+              <a data-toggle="sub-menu">
                 Gallery
               </a>
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
                     href="https://drive.google.com/drive/folders/1tWerDv4ZyIWdBsumxA3pdcYArdOobaKY?usp=sharing"
+                    rel="noreferrer"
                     target="_blank"
                   >
                     2025
@@ -235,13 +213,6 @@ const Header = () => {
             <li className="menu-item">
               <a href="/#contact">Kontak</a>
             </li>
-            {/* <button type="button" class="btn btn-outline-primary">Registration</button> */}
-            {/* <button type="button" class="btn btn-outline-secondary">
-              <a href="https://drive.google.com/file/d/1_znDEnS9LyvnZ5422OPDdAcS3Jyh6-V9/view?usp=sharing" rel="noreferrer noopener" target="_blank"
-              rel="noreferrer">
-                Buku Panduan
-              </a>
-            </button> */}
           </ul>
         </nav>
       </div>
