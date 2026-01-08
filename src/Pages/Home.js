@@ -113,26 +113,18 @@ const Home = () => {
               <div className="counter">
                 <div className="container">
                   <div className="row wow fadeIn">
-                    {/* <div className="col-md-3 col-sm-6">
-                      <div className="">
-                        <img
-                          src="./assets/logo/aff1.svg"
-                          className="image-ipb m-4"
-                        />
-                      </div>
-                    </div> */}
-                    {/* <div className="col-md-6 col-sm-6">
-                      <div className="">
-                        <img
-                          src="./assets/logo/LOGO-AKTUARIA-3.png"
-                          className=" image-ipb2 m-4"
-                        />
-                      </div>
-                    </div> */}
                     <div className="col-md-6 col-sm-6">
                       <div className="">
                         <img
                           src="./assets/logo/IYSA.png"
+                          className=" image-iysa m-4"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6 col-sm-6">
+                      <div className="">
+                        <img
+                          src="./assets/logo/Next generation knowledge logo.jpg"
                           className=" image-iysa m-4"
                         />
                       </div>
