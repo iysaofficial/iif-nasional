@@ -28,16 +28,16 @@ const Home = () => {
                       <div className="about-social-icon text-center">
                         <ul className="">
                           <li>
-                            <button className="btn-primary" onClick={() => window.open("/homeindo", "_self")}>
+                            <button className="btn-primary" disabled={() => window.open("/homeindo", "_self")}>
                               <a
                                 style={{
                                   textDecoration: "none",
                                 }}
                               >
-                                Registrasi disini
+                                Registrasi Ditutup
                               </a>
                             </button>
-                            <button className="btn-primary" onClick={() => window.open("https://drive.google.com/file/d/1Z97vyjwo_lhVNde2lD2UQ6RtP602iU4P/view?usp=sharing", "_blank")}>
+                            {/* <button className="btn-primary" onClick={() => window.open("https://drive.google.com/file/d/1Z97vyjwo_lhVNde2lD2UQ6RtP602iU4P/view?usp=sharing", "_blank")}>
                               <a
                                 style={{
                                   textDecoration: "none",
@@ -46,7 +46,7 @@ const Home = () => {
                               >
                                 Buku Panduan
                               </a>
-                            </button>
+                            </button> */}
                           </li>
                         </ul>
                       </div>
