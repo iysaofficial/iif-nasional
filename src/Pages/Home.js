@@ -28,14 +28,8 @@ const Home = () => {
                       <div className="about-social-icon text-center">
                         <ul className="">
                           <li>
-                            <button className="btn-primary" disabled={() => window.open("/homeindo", "_self")}>
-                              <a
-                                style={{
-                                  textDecoration: "none",
-                                }}
-                              >
-                                Registrasi Ditutup
-                              </a>
+                            <button className="btn-primary" disabled={true}>
+                              Registrasi Ditutup
                             </button>
                             {/* <button className="btn-primary" onClick={() => window.open("https://drive.google.com/file/d/1Z97vyjwo_lhVNde2lD2UQ6RtP602iU4P/view?usp=sharing", "_blank")}>
                               <a
@@ -117,6 +111,7 @@ const Home = () => {
                       <div className="">
                         <img
                           src="./assets/logo/IYSA.png"
+                          alt="IYSA Logo"
                           className=" image-iysa m-4"
                         />
                       </div>
@@ -125,6 +120,7 @@ const Home = () => {
                       <div className="">
                         <img
                           src="./assets/logo/Next generation knowledge logo.jpg"
+                          alt="Next Generation Knowledge Logo"
                           className=" image-iysa m-4"
                         />
                       </div>
@@ -929,6 +925,7 @@ const Home = () => {
                         <a
                           href="https://maps.app.goo.gl/77HgPoe2Mhp6jPTn9"
                           target="_blank"
+                          rel="noreferrer"
                           style={{
                             color: "black",
                             textDecoration: "none",
@@ -969,6 +966,7 @@ const Home = () => {
                         <a
                           href="https://wa.me/6288213248890"
                           target="_blank"
+                          rel="noreferrer"
                           style={{
                             color: "black",
                             textDecoration: "none",
@@ -989,6 +987,7 @@ const Home = () => {
                         <a
                           href="https://www.iysa.or.id/"
                           target="_blank"
+                          rel="noreferrer"
                           style={{
                             color: "black",
                             textDecoration: "none",

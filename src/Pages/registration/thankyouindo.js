@@ -53,8 +53,8 @@ function ThankYouIndo() {
             pendaftaran berhasil
           </strong>
         </p>
-        <Link to="/homeindo" legacyBehavior>
-          <a className="btn btn-custom">Kembali ke menu pendaftaran</a>
+        <Link to="/homeindo" className="btn btn-custom">
+          Kembali ke menu pendaftaran
         </Link>
       </div>
     </div>

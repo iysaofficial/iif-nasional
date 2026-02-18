@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { indonesiaOnlineTerms, indonesiaOfflineTerms } from "../../data/term";
+import { indonesiaOnlineTerms } from "../../data/term";
 import "./registration.css";
 
 function HomeIndo() {
@@ -45,14 +45,14 @@ function HomeIndo() {
             </div>
           </div>
           <div className="link-web mx-auto text-center m-5">
-            <a
+            <button
               className="btn btn-custom text-center m-5"
               onClick={() =>
                 handleOpenModal("/indo-online", indonesiaOnlineTerms)
               }
             >
               Kompetisi Daring<i className="fa-solid fa-earth-americas"></i>
-            </a>
+            </button>
           </div>
         </div>
       </div>

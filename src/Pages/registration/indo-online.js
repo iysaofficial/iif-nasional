@@ -110,13 +110,6 @@ function IndonesiaOnline() {
         setStatusMessage("Data berhasil dikirim!");
 
         // Ambil data sebelum reset
-        const formData = {
-          namaLengkap: selectedMaxNamaLengkap,
-          projectTitle: selectedMaxProject,
-          category: selectedCategory,
-          categoryPrice: categoryPrice,
-          namasekolah: selectedNamaSekolah,
-        };
 
         form.reset();
         setTimeout(() => {

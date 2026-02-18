@@ -1,6 +1,4 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const jenjangonline = () => {
   return (
@@ -29,6 +27,7 @@ const jenjangonline = () => {
                   href="https://drive.google.com/file/d/1vCXCjUWn5gAIVAf4_QczmiexeCVWHWZf/view?usp=sharing"
                   className="btn btn-primary"
                   target="_blank"
+                  rel="noreferrer"
                   style={{ fontSize: "22px", fontWeight: "bold" }}
                 >
                   {" "}
@@ -38,6 +37,7 @@ const jenjangonline = () => {
                   href="https://drive.google.com/file/d/157pwwxqyxZ-bgKElNUQ6AkMcurFTGA7m/view?usp=sharing"
                   className="btn btn-primary"
                   target="_blank"
+                  rel="noreferrer"
                   style={{ fontSize: "22px", fontWeight: "bold" }}
                 >
                   {" "}

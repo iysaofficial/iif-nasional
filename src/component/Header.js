@@ -95,7 +95,7 @@ const Header = () => {
         .removeEventListener("click", handleMenuClick);
       window.removeEventListener("resize", handleResize);
     };
-  }, [isOpen]);
+  }, [isOpen, resizeFix, toggleNav]);
 
   return (
     <header className="header">
@@ -119,12 +119,10 @@ const Header = () => {
               <a href="/#about">Tetang</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="/lowtahun" data-toggle="sub-menu">
-                Daftar Pemenang
-              </a>
+              <a href="/lowtahun">Daftar Pemenang</a>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="" data-toggle="sub-menu">
+              <a href="#!" data-toggle="sub-menu">
                 Kurasi
               </a>
               <ul className="sub-menu text-center">
@@ -158,7 +156,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a href="" data-toggle="sub-menu">
+              <a href="#!" data-toggle="sub-menu">
                 Liputan Media
               </a>
               <ul className="sub-menu text-center">
@@ -183,7 +181,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="menu-item menu-item-has-children">
-              <a data-toggle="sub-menu">
+              <a href="#!" data-toggle="sub-menu">
                 Gallery
               </a>
               <ul className="sub-menu text-center">

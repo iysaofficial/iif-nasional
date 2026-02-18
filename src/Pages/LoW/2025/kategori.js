@@ -1,6 +1,4 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const kategori = () => {
   return (
@@ -25,7 +23,7 @@ const kategori = () => {
                 <h3>Pilih daftar Pemenang apa yang ingin kalian lihat</h3>
               </div>
               <div className="row mx-auto" style={{ width:"50%"}}>
-                <a href="https://drive.google.com/file/d/1IqRZVOwmjMyXjFwUhnsMXfzzwCbAvTbw/view?usp=sharing" target="_blank" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Special Award</a>
+                <a href="https://drive.google.com/file/d/1IqRZVOwmjMyXjFwUhnsMXfzzwCbAvTbw/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Special Award</a>
                 {/* <a href="/jenjangonl24" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> IIF ONLINE</a> */}
               </div>
             </div>
