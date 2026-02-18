@@ -1,16 +1,16 @@
 // Import CSS
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleNav = () => {
+  const toggleNav = useCallback(() => {
     setIsOpen(!isOpen);
     document.body.classList.toggle("hidden-scrolling");
-  };
+  }, [isOpen]);
 
   const collapseSubMenu = () => {
     const activeSubMenu = document.querySelector(
@@ -20,14 +20,14 @@ const Header = () => {
     activeSubMenu.parentElement.classList.remove("active");
   };
 
-  const resizeFix = () => {
+  const resizeFix = useCallback(() => {
     if (isOpen) {
       toggleNav();
     }
     if (document.querySelector(".menu-item-has-children.active")) {
       collapseSubMenu();
     }
-  };
+  }, [isOpen, toggleNav]);
 
   useEffect(() => {
     const mediaSize = 991;
