@@ -162,6 +162,13 @@ const Header = () => {
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
+                    href="https://docs.google.com/document/d/1Lh6xeE1XBWMMVwHjTeaUw2wn8yXs99AYsJjSC2Nr-PE/edit?usp=drive_link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Press Release 2026
+                  </a>
+                  <a
                     href="https://docs.google.com/document/d/1ezesJ_6t1-_r-XvQBY1dhonXeDEK2qK6Oyqfyc0OBng/edit?usp=sharing"
                     target="_blank"
                     rel="noreferrer"

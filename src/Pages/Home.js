@@ -441,7 +441,7 @@ const Home = () => {
 
         <div class="card text-center mt-5">
           <div className="main-title text-center wow fadeIn">
-            <h3>After Event 2025</h3>
+            <h3>After Event 2026</h3>
             <div className="underline1"></div>
             <div className="underline2"></div>
           </div>
