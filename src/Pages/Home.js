@@ -450,7 +450,7 @@ const Home = () => {
             <iframe
               width="800"
               height="450"
-              src="https://www.youtube.com/embed/pVDThogh0xQ?si=TiM8we4yAl4dDQDQ"
+              src="https://www.youtube.com/embed/K94L31bRuz4?si=aOn47hrW6fWDz4KG"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
