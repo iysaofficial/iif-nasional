@@ -20,7 +20,7 @@ const Home = () => {
                           Invention and Innovation Fair Nasional
                         </span>
                         <span className="subtitle is-visible">
-                          Buka Pendaftaran 2026
+                          Coming Soon 2027
                         </span>
                       </h2>
 
@@ -95,7 +95,7 @@ const Home = () => {
                 </div>
                 <div className="row love-row wow fadeIn">
                   <div className="main-title text-center">
-                    <h3>diselenggarakan Oleh</h3>
+                    <h3>Diselenggarakan Oleh</h3>
                     <div className="underline1"></div>
                     <div className="underline2"></div>
                     <p></p>
@@ -106,8 +106,8 @@ const Home = () => {
             <div className="work-counter text-center">
               <div className="counter">
                 <div className="container">
-                  <div className="row wow fadeIn">
-                    <div className="col-md-6 col-sm-6">
+                  <div className="row wow fadeIn justify-content-center">
+                    <div className="col-md-12 col-sm-12 text-center">
                       <div className="">
                         <img
                           src="./assets/logo/IYSA.png"
@@ -116,7 +116,7 @@ const Home = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6 col-sm-6">
+                    {/* <div className="col-md-6 col-sm-6">
                       <div className="">
                         <img
                           src="./assets/logo/Next generation knowledge logo.jpg"
@@ -124,7 +124,7 @@ const Home = () => {
                           className=" image-iysa m-4"
                         />
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
