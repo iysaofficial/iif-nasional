@@ -1,6 +1,6 @@
 import React from "react";
 
-const lowtahun = () => {
+const kategori = () => {
   return (
     <React.StrictMode>
       <div id="blog" style={{height:"100vh"}}>
@@ -14,18 +14,17 @@ const lowtahun = () => {
                     style={{ marginTop: "80px" }}
                   >
                     <h3>Daftar Pemenang</h3>
+                    <a href="/lowtahun" >Kembali ke halaman sebelumnya</a>
                     <div class="underline1"></div>
                   </div>
                 </div>
               </div>
               <div className="text-center" style={{ width:"100%"}}>
-                <h3>Pilih berdasarkan tahun event yang kalian ikuti</h3>
+                <h3>Pilih daftar Pemenang apa yang ingin kalian lihat</h3>
               </div>
               <div className="row mx-auto" style={{ width:"50%"}}>
-                <a href="/kategori26" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> 2026 </a>
-                <a href="/kategori25" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> 2025 </a>
-                <a href="/kategori24" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> 2024 </a>
-                <a href="/jenjang23" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> 2023 </a>
+                {/* <a href="https://drive.google.com/file/d/1eR8o_UMV9auLlCRUb9c---rJdXPzV1i_/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Special Award</a> */}
+                <a href="/jenjangonl26" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> IIF ONLINE</a>
               </div>
             </div>
           </div>
@@ -35,4 +34,4 @@ const lowtahun = () => {
   );
 };
 
-export default lowtahun;
+export default kategori;
