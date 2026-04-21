@@ -23,8 +23,11 @@ const jenjangonline = () => {
                 <h3>Pilih berdasarkan jenjang event yang kalian ikuti</h3>
               </div>
               <div className="row mx-auto" style={{ width:"50%"}}>
-                <a href="https://drive.google.com/file/d/19b6esNmzwXjGqjmCIsVRX1bkgno2y3X7/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> University</a>
-                <a href="https://drive.google.com/file/d/1gMVINZfW6tRq3iuxWjMHEeaQG6dRK-x-/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> Secondary </a>
+                <a href="https://drive.google.com/file/d/1IqRZVOwmjMyXjFwUhnsMXfzzwCbAvTbw/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> Special Award </a>
+                <a href="https://drive.google.com/file/d/1xNFyzeZYFR72afh4PrTRRXVQY7266BwN/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> University </a>
+                <a href="https://drive.google.com/file/d/1_8PzJDEBwTmznTaMgA6m8pfRnPYdfNJD/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> Senior High School </a>
+                <a href="https://drive.google.com/file/d/1-79c0PVl1-U58DfdYe7xJ4FTLMb7tdDM/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> Junior High School </a>
+                <a href="https://drive.google.com/file/d/17dL6p6p57jz4xYHY7Xr15OcSNcUe_WWv/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> Elementary School </a>
                 {/* <a href="https://drive.google.com/file/d/1jd17J4knvtD-IdliUIZgKTIz85BNrh3i/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer" style={{fontSize:"22px",fontWeight:"bold"}}> SMP </a> */}
               </div>
             </div>
