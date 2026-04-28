@@ -23,7 +23,11 @@ const kategori = () => {
                 <h3>Pilih daftar Pemenang apa yang ingin kalian lihat</h3>
               </div>
               <div className="row mx-auto" style={{ width:"50%"}}>
-                <a href="https://drive.google.com/file/d/1IqRZVOwmjMyXjFwUhnsMXfzzwCbAvTbw/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Special Award</a>
+                <a href="https://drive.google.com/file/d/1IqRZVOwmjMyXjFwUhnsMXfzzwCbAvTbw/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Special Award</a>
+                <a href="https://drive.google.com/file/d/1xNFyzeZYFR72afh4PrTRRXVQY7266BwN/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> University</a>
+                <a href="https://drive.google.com/file/d/1_8PzJDEBwTmznTaMgA6m8pfRnPYdfNJD/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Senior High School </a>
+                <a href="https://drive.google.com/file/d/1-79c0PVl1-U58DfdYe7xJ4FTLMb7tdDM/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Junior High School </a>
+                <a href="https://drive.google.com/file/d/17dL6p6p57jz4xYHY7Xr15OcSNcUe_WWv/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> Elementary School</a>
                 {/* <a href="/jenjangonl24" className="btn btn-primary" style={{fontSize:"22px",fontWeight:"bold"}}> IIF ONLINE</a> */}
               </div>
             </div>
