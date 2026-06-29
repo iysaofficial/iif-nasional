@@ -128,6 +128,15 @@ const Header = () => {
               <ul className="sub-menu text-center">
                 <li className="menu-item">
                   <a
+                    href="https://drive.google.com/drive/folders/12O5SHv24t-i4LqjGqZQDu85AqOIvQLRF?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Kurasi 2026
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a
                     href="https://drive.google.com/drive/u/0/folders/1SyFTOmgLJHpYxHnnsSFntJhZdMTWqoN4?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
