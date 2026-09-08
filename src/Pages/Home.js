@@ -20,7 +20,7 @@ const Home = () => {
                           Invention and Innovation Fair Nasional
                         </span>
                         <span className="subtitle is-visible">
-                          Coming Soon 2027
+                          Segera Hadir 2027
                         </span>
                       </h2>
 

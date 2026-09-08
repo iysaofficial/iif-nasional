@@ -119,6 +119,40 @@ const Header = () => {
               <a href="/#about">Tetang</a>
             </li>
             <li className="menu-item menu-item-has-children">
+              <a href="#!" data-toggle="sub-menu">
+                Buku Panduan
+              </a>
+              <ul className="sub-menu text-center">
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/file/d/1Z97vyjwo_lhVNde2lD2UQ6RtP602iU4P/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    2026
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/file/d/1ngKTN5tb0D2prrMjTAG_SjeDUoi5dikM/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    2025
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a
+                    href="https://drive.google.com/file/d/167kKqLfQrdOMEngkM9j3nKnmGepEmAu-/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    2024
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="menu-item menu-item-has-children">
               <a href="/lowtahun">Daftar Pemenang</a>
             </li>
             <li className="menu-item menu-item-has-children">
